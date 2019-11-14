@@ -18,5 +18,10 @@ pipeline {
        echo 'Deploying...'
      }
    }
+   stage('jenkins4') {
+     steps {
+       echo 'lw ragel teeeeg...'
+     }
+   }
   }
 }
